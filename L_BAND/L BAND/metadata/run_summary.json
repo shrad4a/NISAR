@@ -1,0 +1,18 @@
+{
+  "band": "L-band only",
+  "dates_processed": [
+    "20260819",
+    "20260924",
+    "20261018"
+  ],
+  "output_directory": "D:\\NISAR_Project\\L_BAND\\RESULTS\\WATER_MASK_AREA_VALIDATION",
+  "gamma0_to_sigma0_conversion": false,
+  "classification": "unsupervised Otsu-based provisional baseline; no Random Forest",
+  "validation_status_by_date": {
+    "20260819": "COMPUTED",
+    "20260924": "NOT_COMPUTED_NO_REFERENCE_LABELS",
+    "20261018": "NOT_COMPUTED_NO_REFERENCE_LABELS"
+  },
+  "area_warning": "Candidate-class area, not verified true water area; uncertain pixels are separate.",
+  "coverage_warning": "Current input AOIs only; full-scene output requires full-scene processing."
+}

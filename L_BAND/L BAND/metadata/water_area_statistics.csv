@@ -1,0 +1,4 @@
+date,valid_pixels,high_confidence_water_candidate_pixels,uncertain_pixels,nonwater_like_pixels,high_confidence_candidate_area_km2,uncertain_area_km2,nonwater_like_area_km2,valid_AOI_area_km2,candidate_water_percent_of_valid_area,uncertain_percent_of_valid_area,pixel_area_km2,area_interpretation
+20260819,4264756,670676,1044015,2550065,67.0676,104.4015,255.00650000000002,426.47560000000004,15.726011054325266,24.48006404117844,0.0001,"candidate class area, not verified ground-truth water area"
+20260924,4264756,852446,1138969,2273341,85.2446,113.8969,227.3341,426.47560000000004,19.98815407024458,26.706545462389876,0.0001,"candidate class area, not verified ground-truth water area"
+20261018,4264756,716609,1133102,2415045,71.6609,113.31020000000001,241.5045,426.47560000000004,16.803048052455992,26.568976044584964,0.0001,"candidate class area, not verified ground-truth water area"

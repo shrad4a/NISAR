@@ -1,0 +1,4 @@
+date,reference_file,reference_type,reference_note,status,TP,FP,TN,FN,precision,recall,F1,IoU,overall_accuracy,reference_valid_pixels,evaluated_pixels,validation_coverage_percent
+20260819,D:\NISAR_Project\L_BAND\REFERENCE\SENTINEL2\20260819\optical_reference_seed_20m.tif,PRELIMINARY_SENTINEL2_SCREENING_SEED,SCL+NDWI+MNDWI screening seed; not ground truth; visually review before reporting,COMPUTED,56964.0,15094.0,332659.0,7552.0,0.7905298509533987,0.8829437658875318,0.8341851304054945,0.715538248963698,0.9450698451739035,544890.0,412269,75.6609590926609
+20260924,,NOT_AVAILABLE,No reference raster supplied for this date,NOT_COMPUTED_NO_REFERENCE_LABELS,,,,,,,,,,,0,
+20261018,,NOT_AVAILABLE,No reference raster supplied for this date,NOT_COMPUTED_NO_REFERENCE_LABELS,,,,,,,,,,,0,

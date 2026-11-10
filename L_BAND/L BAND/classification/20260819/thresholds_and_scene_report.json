@@ -1,0 +1,91 @@
+{
+  "date": "20260819",
+  "band": "NISAR L-band",
+  "input_backscatter": "linear Gamma0 (gamma-zero) power",
+  "dB_conversion": "10*log10(Gamma0)",
+  "gamma0_to_sigma0_conversion": "NOT PERFORMED",
+  "method": "per-date Otsu HH/HV + dual-channel consensus + 5x5 texture + 3x3 support",
+  "classification_thresholds": {
+    "date": "20260819",
+    "HH_Otsu_threshold_dB": -12.099112274330107,
+    "HV_Otsu_threshold_dB": -18.981970400321295,
+    "HH_texture_threshold_dB_std": 2.5016016960144043,
+    "HV_texture_threshold_dB_std": 2.258007049560547,
+    "HH_Otsu_separability_diagnostic": 0.6913456780831339,
+    "HV_Otsu_separability_diagnostic": 0.7037753135793349,
+    "HH_Otsu_sample_size": 500000,
+    "HV_Otsu_sample_size": 500000,
+    "HH_histogram_range_low_dB": -22.920991516113283,
+    "HH_histogram_range_high_dB": 1.2746511554718079,
+    "HV_histogram_range_low_dB": -28.951543674468994,
+    "HV_histogram_range_high_dB": -7.594131472110748,
+    "method": "per-date Otsu HH/HV + dual-channel consensus + 5x5 texture + 3x3 support"
+  },
+  "mask_usage": {
+    "HHHH_valid_mask.tif": {
+      "unique_values": [
+        1.0
+      ],
+      "mask_valid_pixel_count": 4264756
+    },
+    "HVHV_valid_mask.tif": {
+      "unique_values": [
+        1.0
+      ],
+      "mask_valid_pixel_count": 4264756
+    },
+    "frequencyA_valid_mask.tif": {
+      "unique_values": [
+        1.0
+      ],
+      "mask_valid_pixel_count": 4264756
+    }
+  },
+  "mask_semantics_assumption": "0=invalid and nonzero=valid for *_valid_mask.tif",
+  "valid_pixels": 4264756,
+  "water_area_statistics": {
+    "date": "20260819",
+    "valid_pixels": 4264756,
+    "high_confidence_water_candidate_pixels": 670676,
+    "uncertain_pixels": 1044015,
+    "nonwater_like_pixels": 2550065,
+    "high_confidence_candidate_area_km2": 67.0676,
+    "uncertain_area_km2": 104.4015,
+    "nonwater_like_area_km2": 255.00650000000002,
+    "valid_AOI_area_km2": 426.47560000000004,
+    "candidate_water_percent_of_valid_area": 15.726011054325266,
+    "uncertain_percent_of_valid_area": 24.48006404117844,
+    "pixel_area_km2": 0.0001,
+    "area_interpretation": "candidate class area, not verified ground-truth water area"
+  },
+  "binary_mask_encoding": "0=non-water-like; 1=high-confidence open-water candidate; 255=uncertain/invalid",
+  "three_class_encoding": "0=non-water-like; 1=high-confidence open-water candidate; 2=uncertain; 255=invalid",
+  "validation": {
+    "date": "20260819",
+    "reference_file": "D:\\NISAR_Project\\L_BAND\\REFERENCE\\SENTINEL2\\20260819\\optical_reference_seed_20m.tif",
+    "reference_type": "PRELIMINARY_SENTINEL2_SCREENING_SEED",
+    "reference_note": "SCL+NDWI+MNDWI screening seed; not ground truth; visually review before reporting",
+    "status": "COMPUTED",
+    "TP": 56964,
+    "FP": 15094,
+    "TN": 332659,
+    "FN": 7552,
+    "precision": 0.7905298509533987,
+    "recall": 0.8829437658875318,
+    "F1": 0.8341851304054945,
+    "IoU": 0.715538248963698,
+    "overall_accuracy": 0.9450698451739035,
+    "reference_valid_pixels": 544890,
+    "evaluated_pixels": 412269,
+    "validation_coverage_percent": 75.6609590926609
+  },
+  "limitations": [
+    "Otsu thresholds are unsupervised histogram split points, not trained water thresholds.",
+    "The five-part evidence count is not a calibrated probability.",
+    "High-confidence pixels are water candidates, not independently confirmed water.",
+    "Water area is candidate-class area; uncertain pixels are reported separately, not forced into land or water.",
+    "Validation metrics exclude uncertain/invalid predictions and unknown reference pixels; validation coverage is reported.",
+    "Sentinel-2 screening seed metrics, if used, are preliminary and not authoritative ground truth.",
+    "Outputs cover the current AOI crops, not the full selected NISAR scene footprint."
+  ]
+}
