@@ -1,0 +1,127 @@
+{
+    "description": "Common Sentinel-2 reference raster grid used for spatial comparison with NISAR S-band.",
+    "reference_grid": {
+        "crs": "EPSG:32645",
+        "width": 2127,
+        "height": 2007,
+        "resolution": [
+            10.0,
+            10.0
+        ],
+        "transform": [
+            10.0,
+            0.0,
+            439110.0,
+            0.0,
+            -10.0,
+            2830450.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "bounds": [
+            439110.0,
+            2810380.0,
+            460380.0,
+            2830450.0
+        ]
+    },
+    "reference_dates": [
+        "20260819",
+        "20260924",
+        "20261018"
+    ],
+    "pixel_labels": {
+        "0": "Non-water",
+        "1": "Water",
+        "255": "Invalid; excluded from validation"
+    },
+    "alignment": {
+        "reference_grid_source": "Sentinel-2 GeoTIFF",
+        "comparison": "Spatial comparison must use matching geographic locations and exclude invalid reference pixels.",
+        "resampling": "Categorical labels must use nearest-neighbour resampling if reprojection is required."
+    },
+    "per_date_grid_verification": [
+        {
+            "date": "20260819",
+            "crs": "EPSG:32645",
+            "width": 2127,
+            "height": 2007,
+            "resolution": [
+                10.0,
+                10.0
+            ],
+            "transform": [
+                10.0,
+                0.0,
+                439110.0,
+                0.0,
+                -10.0,
+                2830450.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "bounds": [
+                439110.0,
+                2810380.0,
+                460380.0,
+                2830450.0
+            ]
+        },
+        {
+            "date": "20260924",
+            "crs": "EPSG:32645",
+            "width": 2127,
+            "height": 2007,
+            "resolution": [
+                10.0,
+                10.0
+            ],
+            "transform": [
+                10.0,
+                0.0,
+                439110.0,
+                0.0,
+                -10.0,
+                2830450.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "bounds": [
+                439110.0,
+                2810380.0,
+                460380.0,
+                2830450.0
+            ]
+        },
+        {
+            "date": "20261018",
+            "crs": "EPSG:32645",
+            "width": 2127,
+            "height": 2007,
+            "resolution": [
+                10.0,
+                10.0
+            ],
+            "transform": [
+                10.0,
+                0.0,
+                439110.0,
+                0.0,
+                -10.0,
+                2830450.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "bounds": [
+                439110.0,
+                2810380.0,
+                460380.0,
+                2830450.0
+            ]
+        }
+    ]
+}

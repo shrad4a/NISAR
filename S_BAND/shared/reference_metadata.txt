@@ -1,0 +1,40 @@
+SENTINEL-2 REFERENCE DATA METADATA
+=============================================
+
+Data source: COPERNICUS/S2_SR_HARMONIZED
+Reference method: MNDWI threshold classification
+MNDWI threshold: Greater than 0
+Cloud/shadow masking: Sentinel-2 SCL
+
+Pixel label convention:
+0   = Non-water
+1   = Water
+255 = Invalid/cloud/shadow
+
+Reference acquisitions:
+
+Date: 20260819
+Scene ID: 20260819T044701_20260819T045130_T45RVJ
+File: reference_labels_20260819.tif
+CRS: EPSG:32645
+Dimensions: 2127 x 2007
+Resolution: [10.0, 10.0]
+NoData metadata: None
+
+Date: 20260924
+Scene ID: 20260928T044701_20260928T045730_T45RVJ
+File: reference_labels_20260924.tif
+CRS: EPSG:32645
+Dimensions: 2127 x 2007
+Resolution: [10.0, 10.0]
+NoData metadata: None
+
+Date: 20261018
+Scene ID: 20261018T044811_20261018T050037_T45RVJ
+File: reference_labels_20261018.tif
+CRS: EPSG:32645
+Dimensions: 2127 x 2007
+Resolution: [10.0, 10.0]
+NoData metadata: None
+
+Note: These are MNDWI-derived reference labels, not independently verified ground truth.

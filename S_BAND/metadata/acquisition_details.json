@@ -1,0 +1,37 @@
+{
+    "sensor": "NISAR S-band",
+    "product_level": "L2 GCOV",
+    "crs": "EPSG:32645",
+    "resolution_m": 10,
+    "width_pixels": 34200,
+    "height_pixels": 33120,
+    "acquisitions": {
+        "20260819": {
+            "date": "2026-08-19",
+            "product": "NISAR S-band L2 GCOV",
+            "source_file": "NISAR_S2_PR_GCOV_028_098_A_014_3700_DHNA_A_20260819T233810_20260819T233847_P00500_P_F_I_001 (1).h5"
+        },
+        "20260924": {
+            "date": "2026-09-24",
+            "product": "NISAR S-band L2 GCOV",
+            "source_file": "NISAR_S2_UR_GCOV_031_098_A_014_3700_DHNA_A_20260924T233810_20260924T233846_P00500_M_F_I_001.h5"
+        },
+        "20261018": {
+            "date": "2026-10-18",
+            "product": "NISAR S-band L2 GCOV",
+            "source_file": "NISAR_S2_PR_GCOV_033_098_A_014_3700_DHNA_A_20261018T233810_20261018T233847_P00500_M_F_I_001 (1).h5"
+        }
+    },
+    "radiometric_information": {
+        "primary_measurement": "Gamma0",
+        "sigma0_conversion": "Sigma0 = Gamma0 * rtcGammaToSigmaFactor",
+        "cross_pol_ratio": "HVHV / HHHH",
+        "cross_pol_ratio_db": "10 * log10(HVHV / HHHH)"
+    },
+    "quality_flags": {
+        "mask_1": "Valid fully focused GCOV sample",
+        "mask_255": "Outside radar acquisition extent",
+        "exception_0": "No input data anomaly",
+        "exception_64": "NISAR SSAR sample shift"
+    }
+}

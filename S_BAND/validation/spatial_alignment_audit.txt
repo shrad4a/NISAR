@@ -1,0 +1,27 @@
+NISAR S-BAND SPATIAL ALIGNMENT AUDIT
+==================================================
+
+Date: 20260819
+same_crs: True
+same_dimensions: False
+same_resolution: True
+same_transform: False
+exact_grid_match: False
+overlap_exists: True
+
+Date: 20260924
+same_crs: True
+same_dimensions: False
+same_resolution: True
+same_transform: False
+exact_grid_match: False
+overlap_exists: True
+
+Date: 20261018
+same_crs: True
+same_dimensions: False
+same_resolution: True
+same_transform: False
+exact_grid_match: False
+overlap_exists: True
+

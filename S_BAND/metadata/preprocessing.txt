@@ -1,0 +1,39 @@
+NISAR S-BAND WATER MAPPING
+PREPROCESSING RECORD
+
+Input:
+Three NISAR S-band L2 GCOV acquisitions:
+2026-08-19
+2026-09-24
+2026-10-18
+
+Spatial reference:
+CRS: EPSG:32645
+Nominal resolution: 10 m
+Dimensions: 34200 x 33120 pixels
+
+Radiometric processing:
+- HH and HV diagonal covariance terms used as Gamma0 measurements.
+- Sigma0 calculated by multiplying Gamma0 by rtcGammaToSigmaFactor.
+- HV/HH power ratio calculated from HVHV / HHHH.
+- Ratio in dB calculated using 10 * log10(HVHV / HHHH).
+- HHHV complex term inspected through real, imaginary,
+  magnitude and phase components.
+
+Quality handling:
+- mask == 1 identifies valid GCOV samples.
+- inputDataExceptionMask == 0 identifies clean samples.
+- inputDataExceptionMask == 64 identifies SSAR-shift-flagged samples.
+- SSAR-shift pixels were retained for analysis and not
+  automatically classified as corrupted.
+- Non-finite measurements are treated as invalid.
+
+Feature extraction:
+- HH Gamma0
+- HV Gamma0
+- HH dB
+- HV dB
+- HV/HH ratio in dB
+
+Final classification and validation details must be added
+after those outputs have actually been generated.

@@ -1,0 +1,7 @@
+(
+echo raw_data/
+echo extracted_features/
+echo water_probability.tif
+echo *.h5
+echo *.bak
+) > S_BAND\.gitignore
