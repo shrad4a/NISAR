@@ -1,0 +1,25 @@
+{
+    "script": "30_calibrated_gamma_sigma_comparison.py",
+    "dates": [
+        "20260819",
+        "20260924",
+        "20261018"
+    ],
+    "processing": {
+        "sigma0_formula": "Sigma0 = Gamma0 * rtcGammaToSigmaFactor",
+        "ratio_formula": "HV_HH_ratio = HVHV / HHHH",
+        "ratio_db_formula": "10 * log10(HVHV / HHHH)",
+        "clean_definition": "mask == 1 and inputDataExceptionMask == 0",
+        "ssar_shift_definition": "mask == 1 and inputDataExceptionMask == 64",
+        "nodata_value": -9999.0,
+        "block_size": 512
+    },
+    "important_notes": [
+        "SSAR-shift pixels were retained.",
+        "No arbitrary SSAR penalty was applied.",
+        "Gamma0 was retained as the primary measurement.",
+        "Sigma0 was calculated using multiplication by RTC factor.",
+        "HHHV real and imaginary components were inspected separately.",
+        "Phase is reported in radians."
+    ]
+}

@@ -1,0 +1,485 @@
+[
+  {
+    "filename": "NISAR_S2_PR_GCOV_028_098_A_014_3700_DHNA_A_20260819T233810_20260819T233847_P00500_P_F_I_001 (1).h5",
+    "acquisition_date": "20260819",
+    "source_file_size_GB": 11.7562,
+    "crs_epsg": 32645,
+    "aoi_wgs84": [
+      86.3946,
+      25.4098,
+      86.6054,
+      25.5902
+    ],
+    "aoi_projected_bounds": [
+      439112.7266042848,
+      2810384.2132703005,
+      460373.14946205023,
+      2830441.0981284278
+    ],
+    "source_raster_shape": [
+      33120,
+      34200
+    ],
+    "crop_window": {
+      "row_start": 7332,
+      "row_end_exclusive": 9338,
+      "col_start": 19359,
+      "col_end_exclusive": 21485
+    },
+    "crop_shape": [
+      2006,
+      2126
+    ],
+    "x_spacing_m": 10.0,
+    "y_spacing_m": -10.0,
+    "datasets": [
+      {
+        "dataset": "HHHH",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.0005465472931973636,
+        "maximum": 563.5453491210938,
+        "mean": 0.14350537075590603,
+        "median": 0.09513045847415924,
+        "p02": 0.00790988840162754,
+        "p98": 0.5353401899337769,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\HHHH.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\HHHH.tif"
+      },
+      {
+        "dataset": "HVHV",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.00040144877857528627,
+        "maximum": 39.74766159057617,
+        "mean": 0.03431908359883742,
+        "median": 0.02488333359360695,
+        "p02": 0.003969216253608465,
+        "p98": 0.12481566518545151,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\HVHV.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\HVHV.tif"
+      },
+      {
+        "dataset": "HHHV",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "complex64",
+        "note": "Statistics are for magnitude of complex values.",
+        "finite_pixels": 4264755,
+        "nonfinite_pixels": 1,
+        "minimum": 3.4564718589535914e-06,
+        "maximum": 112.33154296875,
+        "mean": 0.03629865753353568,
+        "median": 0.0240668673068285,
+        "p02": 0.0019407530780881643,
+        "p98": 0.14285138249397278,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\HHHV.npy",
+        "geotiff_file": null
+      },
+      {
+        "dataset": "mask",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "uint8",
+        "value_counts": {
+          "1": 4264756
+        },
+        "valid_mask_pixels": 4264756,
+        "valid_mask_percent_of_AOI": 100.0,
+        "outside_coverage_pixels": 0,
+        "mask_zero_pixels": 0,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\mask.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\mask.tif"
+      },
+      {
+        "dataset": "inputDataExceptionMask",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "uint8",
+        "value_counts": {
+          "0": 1744475,
+          "64": 2520281
+        },
+        "code_0_no_anomaly_pixels": 1744475,
+        "code_64_sample_shift_pixels": 2520281,
+        "code_64_percent_of_in_coverage": 59.096,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\inputDataExceptionMask.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\inputDataExceptionMask.tif"
+      },
+      {
+        "dataset": "numberOfLooks",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 16.0,
+        "maximum": 16.0,
+        "mean": 16.0,
+        "median": 16.0,
+        "p02": 16.0,
+        "p98": 16.0,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\numberOfLooks.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\numberOfLooks.tif"
+      },
+      {
+        "dataset": "rtcGammaToSigmaFactor",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.33356672525405884,
+        "maximum": 2.2384846210479736,
+        "mean": 0.7913771452620127,
+        "median": 0.7906148433685303,
+        "p02": 0.7002112865447998,
+        "p98": 0.8872052431106567,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\rtcGammaToSigmaFactor.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260819\\rtcGammaToSigmaFactor.tif"
+      }
+    ]
+  },
+  {
+    "filename": "NISAR_S2_PR_GCOV_033_098_A_014_3700_DHNA_A_20261018T233810_20261018T233847_P00500_M_F_I_001 (1).h5",
+    "acquisition_date": "20261018",
+    "source_file_size_GB": 11.7727,
+    "crs_epsg": 32645,
+    "aoi_wgs84": [
+      86.3946,
+      25.4098,
+      86.6054,
+      25.5902
+    ],
+    "aoi_projected_bounds": [
+      439112.7266042848,
+      2810384.2132703005,
+      460373.14946205023,
+      2830441.0981284278
+    ],
+    "source_raster_shape": [
+      33120,
+      34200
+    ],
+    "crop_window": {
+      "row_start": 7332,
+      "row_end_exclusive": 9338,
+      "col_start": 19359,
+      "col_end_exclusive": 21485
+    },
+    "crop_shape": [
+      2006,
+      2126
+    ],
+    "x_spacing_m": 10.0,
+    "y_spacing_m": -10.0,
+    "datasets": [
+      {
+        "dataset": "HHHH",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.000803711824119091,
+        "maximum": 1759.2091064453125,
+        "mean": 0.1722066014857851,
+        "median": 0.10966933518648148,
+        "p02": 0.008981234394013882,
+        "p98": 0.6574448347091675,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\HHHH.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\HHHH.tif"
+      },
+      {
+        "dataset": "HVHV",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.0003663711540866643,
+        "maximum": 31.145536422729492,
+        "mean": 0.03903112172705787,
+        "median": 0.027153000235557556,
+        "p02": 0.00435648811981082,
+        "p98": 0.1496700793504715,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\HVHV.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\HVHV.tif"
+      },
+      {
+        "dataset": "HHHV",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "complex64",
+        "note": "Statistics are for magnitude of complex values.",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 5.4901156545383856e-06,
+        "maximum": 92.63846588134766,
+        "mean": 0.0422480850876806,
+        "median": 0.027025319635868073,
+        "p02": 0.0021903864108026028,
+        "p98": 0.1728208363056183,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\HHHV.npy",
+        "geotiff_file": null
+      },
+      {
+        "dataset": "mask",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "uint8",
+        "value_counts": {
+          "1": 4264756
+        },
+        "valid_mask_pixels": 4264756,
+        "valid_mask_percent_of_AOI": 100.0,
+        "outside_coverage_pixels": 0,
+        "mask_zero_pixels": 0,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\mask.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\mask.tif"
+      },
+      {
+        "dataset": "inputDataExceptionMask",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "uint8",
+        "value_counts": {
+          "0": 1736565,
+          "64": 2528191
+        },
+        "code_0_no_anomaly_pixels": 1736565,
+        "code_64_sample_shift_pixels": 2528191,
+        "code_64_percent_of_in_coverage": 59.281,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\inputDataExceptionMask.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\inputDataExceptionMask.tif"
+      },
+      {
+        "dataset": "numberOfLooks",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 16.0,
+        "maximum": 16.0,
+        "mean": 16.0,
+        "median": 16.0,
+        "p02": 16.0,
+        "p98": 16.0,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\numberOfLooks.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\numberOfLooks.tif"
+      },
+      {
+        "dataset": "rtcGammaToSigmaFactor",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.32908543944358826,
+        "maximum": 2.1717000007629395,
+        "mean": 0.7779491886328803,
+        "median": 0.7771993279457092,
+        "p02": 0.6883344054222107,
+        "p98": 0.8721936345100403,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\rtcGammaToSigmaFactor.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20261018\\rtcGammaToSigmaFactor.tif"
+      }
+    ]
+  },
+  {
+    "filename": "NISAR_S2_UR_GCOV_031_098_A_014_3700_DHNA_A_20260924T233810_20260924T233846_P00500_M_F_I_001.h5",
+    "acquisition_date": "20260924",
+    "source_file_size_GB": 11.768,
+    "crs_epsg": 32645,
+    "aoi_wgs84": [
+      86.3946,
+      25.4098,
+      86.6054,
+      25.5902
+    ],
+    "aoi_projected_bounds": [
+      439112.7266042848,
+      2810384.2132703005,
+      460373.14946205023,
+      2830441.0981284278
+    ],
+    "source_raster_shape": [
+      33120,
+      34200
+    ],
+    "crop_window": {
+      "row_start": 7332,
+      "row_end_exclusive": 9338,
+      "col_start": 19359,
+      "col_end_exclusive": 21485
+    },
+    "crop_shape": [
+      2006,
+      2126
+    ],
+    "x_spacing_m": 10.0,
+    "y_spacing_m": -10.0,
+    "datasets": [
+      {
+        "dataset": "HHHH",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.0008542934083379805,
+        "maximum": 2947.93896484375,
+        "mean": 0.18768701121303075,
+        "median": 0.10188059508800507,
+        "p02": 0.009320433251559734,
+        "p98": 0.6974043846130371,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\HHHH.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\HHHH.tif"
+      },
+      {
+        "dataset": "HVHV",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 8.897532666196639e-08,
+        "maximum": 0.00017965862934943289,
+        "mean": 1.1144986452917017e-05,
+        "median": 8.815953151497524e-06,
+        "p02": 1.93027676687052e-06,
+        "p98": 3.5715340345632285e-05,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\HVHV.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\HVHV.tif"
+      },
+      {
+        "dataset": "HHHV",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "complex64",
+        "note": "Statistics are for magnitude of complex values.",
+        "finite_pixels": 4264755,
+        "nonfinite_pixels": 1,
+        "minimum": 1.4917101509581698e-07,
+        "maximum": 0.22130997478961945,
+        "mean": 0.0006549220429234133,
+        "median": 0.0004643947759177536,
+        "p02": 5.0110156735172495e-05,
+        "p98": 0.0024430754128843546,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\HHHV.npy",
+        "geotiff_file": null
+      },
+      {
+        "dataset": "mask",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "uint8",
+        "value_counts": {
+          "1": 4264756
+        },
+        "valid_mask_pixels": 4264756,
+        "valid_mask_percent_of_AOI": 100.0,
+        "outside_coverage_pixels": 0,
+        "mask_zero_pixels": 0,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\mask.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\mask.tif"
+      },
+      {
+        "dataset": "inputDataExceptionMask",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "uint8",
+        "value_counts": {
+          "0": 1740980,
+          "64": 2523776
+        },
+        "code_0_no_anomaly_pixels": 1740980,
+        "code_64_sample_shift_pixels": 2523776,
+        "code_64_percent_of_in_coverage": 59.178,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\inputDataExceptionMask.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\inputDataExceptionMask.tif"
+      },
+      {
+        "dataset": "numberOfLooks",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 16.0,
+        "maximum": 16.0,
+        "mean": 16.0,
+        "median": 16.0,
+        "p02": 16.0,
+        "p98": 16.0,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\numberOfLooks.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\numberOfLooks.tif"
+      },
+      {
+        "dataset": "rtcGammaToSigmaFactor",
+        "shape": [
+          2006,
+          2126
+        ],
+        "dtype": "float32",
+        "finite_pixels": 4264756,
+        "nonfinite_pixels": 0,
+        "minimum": 0.3320840895175934,
+        "maximum": 2.2321393489837646,
+        "mean": 0.7891054820890825,
+        "median": 0.7883444428443909,
+        "p02": 0.6982099413871765,
+        "p98": 0.8846920728683472,
+        "npy_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\rtcGammaToSigmaFactor.npy",
+        "geotiff_file": "C:\\Users\\HP\\Downloads\\NISAR\\S_BAND\\aoi_outputs\\20260924\\rtcGammaToSigmaFactor.tif"
+      }
+    ]
+  }
+]

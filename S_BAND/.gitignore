@@ -1,7 +1,6 @@
-(
-echo raw_data/
-echo extracted_features/
-echo water_probability.tif
-echo *.h5
-echo *.bak
-) > S_BAND\.gitignore
+raw_data/
+full_scene_geotiffs/
+*.h5
+*.bak
+available_feature_layers_*.tif
+water_probability.tif
